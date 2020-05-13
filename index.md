@@ -1,6 +1,6 @@
 ### Abstract
 Voice  conversion  (VC)  is  a  task  that  transforms  the  sourcespeaker’s timbre, accent, and tones in audio into another one’swhile preserving the linguistic content.  It is still a challengingwork, especially in one-shot setting.  Auto-encoder-based VCmethods disentangle the speaker and the content in input speechwithout given the speaker’s identity, so these methods can fur-ther generalize to unseen speakers.  The disentangle capabilityis achieved by vector quantization (VQ), adversarial training, orinstance normalization (IN). However, the imperfect disentan-glement may harm the quality of output speech.  In this work,to further improve audio quality, we fuse skip-connection mod-ules  into  an  auto-encoder-based  VC  system.   We  find  that  toleverage skip-connection, strong information bottleneck is nec-essary.  The VQ-based method, which quantizes the latent vec-tors,  can serve the purpose.   The objective and the subjectiveevaluations  show  that  the  proposed  method  performs  well  inboth audio naturalness and speaker sim
-### DEMO (Source speaker and Target speaker are unseen.)
+### DEMO ( ALL of them are random sampled (no choiced) )
 
 | **Source** | **Target** | **Ours Converted** | **AdaIN** | **AutoVC** |
 | :--- | :--- | :--- | :--- | :--- |
