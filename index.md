@@ -15,3 +15,16 @@ Voice  conversion  (VC)  is  a  task  that  transforms  the  source speaker’s 
 | <audio src="all/all/unseen/p347_p330_3/source.wav" controls preload></audio> | <audio src="all/all/unseen/p347_p330_3/target.wav" controls preload></audio> | <audio src="all/all/unseen/p347_p330_3/conversion.wav" controls preload></audio> |<audio src="all/all/unseen/p347_p330_3/adain/converted.wav" controls preload></audio> |<audio src="all/all/unseen/p347_p330_3/autovc/source.wav" controls preload></audio> |
 | --- | --- | --- | --- | --- |
 
+
+### DEMO ( Seen Source and Target, both of them are random sampled, and converted by only one utterance)
+
+| **Source** | **Target** | **Ours Converted** | **AdaIN** | **AutoVC** |
+| :--- | :--- | :--- | :--- | :--- |
+| <audio src="all/all/seen/p280_p306_0/source.wav" controls preload></audio> | <audio src="all/all/seen/p280_p306_0/target.wav" controls preload></audio> | <audio src="all/all/seen/p280_p306_0/conversion.wav" controls preload></audio> |<audio src="all/all/seen/p280_p306_0/adain/converted.wav" controls preload></audio> |<audio src="all/all/seen/p280_p306_0/autovc/source.wav" controls preload></audio> |
+| --- | --- | --- | --- | --- |
+| <audio src="all/all/seen/p317_p318_0/source.wav" controls preload></audio> | <audio src="all/all/seen/p317_p318_0/target.wav" controls preload></audio> | <audio src="all/all/seen/p317_p318_0/conversion.wav" controls preload></audio> |<audio src="all/all/seen/p317_p318_0/adain/converted.wav" controls preload></audio> |<audio src="all/all/seen/p317_p318_0/autovc/source.wav" controls preload></audio> |
+| --- | --- | --- | --- | --- |
+| <audio src="all/all/seen/p276_p243_0/source.wav" controls preload></audio> | <audio src="all/all/seen/p276_p243_0/target.wav" controls preload></audio> | <audio src="all/all/seen/p276_p243_0/conversion.wav" controls preload></audio> |<audio src="all/all/seen/p276_p243_0/adain/converted.wav" controls preload></audio> |<audio src="all/all/seen/p276_p243_0/autovc/source.wav" controls preload></audio> |
+| --- | --- | --- | --- | --- |
+| <audio src="all/all/seen/p275_p263_0/source.wav" controls preload></audio> | <audio src="all/all/seen/p275_p263_0/target.wav" controls preload></audio> | <audio src="all/all/seen/p275_p263_0/conversion.wav" controls preload></audio> |<audio src="all/all/seen/p275_p263_0/adain/converted.wav" controls preload></audio> |<audio src="all/all/seen/p275_p263_0/autovc/source.wav" controls preload></audio> |
+| --- | --- | --- | --- | --- |
