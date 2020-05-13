@@ -4,7 +4,7 @@ Voice  conversion  (VC)  is  a  task  that  transforms  the  sourcespeaker’s t
 
 | **Source** | **Target** | ** Ours Converted** | ** AdaIN ** | ** AutoVC** |
 | :--- | :--- | :--- | :--- | :--- |
-| <audio src="all/all/p237_p251_0/source.wav" controls preload></audio> | <audio src="all/all/p237_p251_0/target.wav" controls preload></audio> | <audio src="all/all/p237_p251_0/conversion.wav" controls preload></audio> |<audio src="all/all.p237_p251_0/adain/converted.wav" controls preload></audio> |<audio src="all/all/p237_p251_0/autovc/source.wav" controls preload></audio> |
+| <audio src="all/all/seen/p237_p251_0/source.wav" controls preload></audio> | <audio src="all/all/seen/p237_p251_0/target.wav" controls preload></audio> | <audio src="all/all/seen/p237_p251_0/conversion.wav" controls preload></audio> |<audio src="all/all/seen/p237_p251_0/adain/converted.wav" controls preload></audio> |<audio src="all/all/seen/p237_p251_0/autovc/source.wav" controls preload></audio> |
 | --- | --- | --- | --- | --- |
 
 ### Demo 2 M2F
