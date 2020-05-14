@@ -2,7 +2,7 @@
 Voice  conversion  (VC)  is  a  task  that  transforms  the  source speaker’s timbre, accent, and tones in audio into another one’s while preserving the linguistic content.  It is still a challenging work, especially in one-shot setting.  Auto-encoder-based VCmethods disentangle the speaker and the content in input speechwithout given the speaker’s identity, so these methods can further generalize to unseen speakers.  The disentangle capabilityis achieved by vector quantization (VQ), adversarial training, or instance normalization (IN). However, the imperfect disentan-glement may harm the quality of output speech.  In this work, to further improve audio quality, we fuse skip-connection mod-ules  into  an  auto-encoder-based  VC  system.   We  find  that  to leverage skip-connection, strong information bottleneck is necessary.  The VQ-based method, which quantizes the latent vectors,  can serve the purpose.   The objective and the subjective evaluations  show  that  the  proposed  method  performs  well  in both audio naturalness and speaker similarity
 ### DEMO ( Unseen Source and Target, both of them are random sampled, and converted by only one utterance)
 
-| **Source** | **Target** | **Ours Converted** | **AdaIN** | **AutoVC** |
+| **Source** | **Target** | **Ours Converted** | **Chou** | **AutoVC** |
 | :--- | :--- | :--- | :--- | :--- |
 | <audio src="all/all/unseen/p330_p347_3/source.wav" controls preload></audio> | <audio src="all/all/unseen/p330_p347_3/target.wav" controls preload></audio> | <audio src="all/all/unseen/p330_p347_3/conversion.wav" controls preload></audio> |<audio src="all/all/unseen/p330_p347_3/adain/converted.wav" controls preload></audio> |<audio src="all/all/unseen/p330_p347_3/autovc/source.wav" controls preload></audio> |
 | --- | --- | --- | --- | --- |
@@ -18,7 +18,7 @@ Voice  conversion  (VC)  is  a  task  that  transforms  the  source speaker’s 
 
 ### DEMO ( Seen Source and Target, both of them are random sampled, and converted by only one utterance)
 
-| **Source** | **Target** | **Ours Converted** | **AdaIN** | **AutoVC** |
+| **Source** | **Target** | **Ours Converted** | **Chou** | **AutoVC** |
 | :--- | :--- | :--- | :--- | :--- |
 | <audio src="all/all/seen/p280_p306_0/source.wav" controls preload></audio> | <audio src="all/all/seen/p280_p306_0/target.wav" controls preload></audio> | <audio src="all/all/seen/p280_p306_0/conversion.wav" controls preload></audio> |<audio src="all/all/seen/p280_p306_0/adain/converted.wav" controls preload></audio> |<audio src="all/all/seen/p280_p306_0/autovc/source.wav" controls preload></audio> |
 | --- | --- | --- | --- | --- |
